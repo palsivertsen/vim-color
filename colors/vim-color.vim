@@ -29,6 +29,12 @@ hi WarningMsg guifg=fg      guibg=#eeee48
 hi SpellBad   guifg=red     guibg=bg      cterm=undercurl
 hi SpellCap                 guibg=bg      cterm=underline
 
+" Pnenu
+hi Pmenu      guifg=#dfd6d8 guibg=#242520
+hi PmenuSel   guifg=#f11760 guibg=#242520 cterm=bold
+hi PmenuSbar  guifg=#dfd6d8 guibg=bg
+hi PmenuThumb guifg=#dfd6d8 guibg=grey
+
 " Links
 hi! link SignColumn      LineNr
 
