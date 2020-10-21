@@ -26,7 +26,7 @@ hi Visual     guifg=fg      guibg=#36382f
 hi WarningMsg guifg=fg      guibg=#eeee48
 
 " Spell
-hi SpellBad   guifg=red     guibg=bg      cterm=undercurl
+hi SpellBad                 guibg=bg      cterm=undercurl  guisp=red
 hi SpellCap                 guibg=bg      cterm=underline
 
 " Pnenu
