@@ -15,6 +15,7 @@ hi Function   guifg=#8be02f guibg=bg
 hi Identifier guifg=#eb7c34 guibg=bg
 hi IncSearch  guifg=fg      guibg=#828282 cterm=underline
 hi LineNr     guifg=#828282 guibg=#242520
+hi MatchParen guifg=#eb7c34 guibg=bg
 hi NonText    guifg=#646757 guibg=bg
 hi Search 		guifg=fg      guibg=bg      cterm=underline
 hi Special    guifg=#29b7d0 cterm=italic
