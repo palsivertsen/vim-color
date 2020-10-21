@@ -1,7 +1,70 @@
-hi clear
-
 let g:colors_name = "vim-color"
 
+" Reset known groups
+hi clear ColorColumn
+hi clear Comment
+hi clear Conceal
+hi clear Constant
+hi clear CursorColumn
+hi clear CursorLine
+hi clear CursorLineNr
+hi clear DiffAdd
+hi clear DiffChange
+hi clear DiffDelete
+hi clear DiffText
+hi clear Directory
+hi clear EndOfBuffer
+hi clear Error
+hi clear ErrorMsg
+hi clear FoldColumn
+hi clear Folded
+hi clear Identifier
+hi clear Ignore
+hi clear IncSearch
+hi clear LineNr
+hi clear LineNrAbove
+hi clear LineNrBelow
+hi clear MatchParen
+hi clear ModeMsg
+hi clear MoreMsg
+hi clear NonText
+hi clear Normal
+hi clear Pmenu
+hi clear PmenuSbar
+hi clear PmenuSel
+hi clear PmenuThumb
+hi clear PreProc
+hi clear Question
+hi clear QuickFixLine
+hi clear Search
+hi clear SignColumn
+hi clear Special
+hi clear SpecialKey
+hi clear SpellBad
+hi clear SpellCap
+hi clear SpellLocal
+hi clear SpellRare
+hi clear Statement
+hi clear StatusLine
+hi clear StatusLineNC
+hi clear StatusLineTerm
+hi clear StatusLineTermNC
+hi clear TabLine
+hi clear TabLineFill
+hi clear TabLineSel
+hi clear Title
+hi clear Todo
+hi clear ToolbarButton
+hi clear ToolbarLine
+hi clear Type
+hi clear Underlined
+hi clear VertSplit
+hi clear Visual
+hi clear VisualNOS
+hi clear WarningMsg
+hi clear WildMenu
+
+" Colors
 hi Normal     guifg=#dfd6d8 guibg=#1f201b
 hi Comment    guifg=#828282 guibg=bg
 hi Constant   guifg=#29b7d0 guibg=bg
