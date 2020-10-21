@@ -3,7 +3,7 @@ hi clear
 let g:colors_name = "vim-color"
 
 hi Normal     guifg=#dfd6d8 guibg=#1f201b
-hi Comment    guifg=#4d4d4d guibg=bg
+hi Comment    guifg=#828282 guibg=bg
 hi Constant   guifg=#29b7d0 guibg=bg
 hi DiffAdd    guifg=#9bbb51 guibg=bg
 hi DiffChange guifg=#d7c243 guibg=bg
@@ -13,8 +13,8 @@ hi Error      guifg=fg      guibg=#d10707 gui=bold
 hi ErrorMsg   guifg=fg      guibg=#d10707
 hi Function   guifg=#8be02f guibg=bg
 hi Identifier guifg=#eb7c34 guibg=bg
-hi IncSearch  guifg=fg      guibg=#4d4d4d cterm=underline
-hi LineNr     guifg=#4d4d4d guibg=#242520
+hi IncSearch  guifg=fg      guibg=#828282 cterm=underline
+hi LineNr     guifg=#828282 guibg=#242520
 hi NonText    guifg=#646757 guibg=bg
 hi Search 		guifg=fg      guibg=bg      cterm=underline
 hi Special    guifg=#29b7d0 cterm=italic
