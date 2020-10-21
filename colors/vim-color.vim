@@ -38,6 +38,7 @@ hi PmenuThumb guifg=#dfd6d8 guibg=grey
 
 " Links
 hi! link SignColumn      LineNr
+hi! link VertSplit       Normal
 
 " Custom
 hi! link GitGutterAdd    DiffAdd
