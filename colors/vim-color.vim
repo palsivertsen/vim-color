@@ -65,6 +65,11 @@ hi clear WarningMsg
 hi clear WildMenu
 
 " Colors
+" #dfd6d8 light grey
+" #1f201b dark grey
+" #828282 grey
+
+" Set colors
 hi Normal     guifg=#dfd6d8 guibg=#1f201b
 hi Comment    guifg=#828282 guibg=bg
 hi Constant   guifg=#29b7d0 guibg=bg
@@ -81,7 +86,7 @@ hi LineNr     guifg=#828282 guibg=#242520
 hi MatchParen guifg=#eb7c34 guibg=bg
 hi NonText    guifg=#646757 guibg=bg
 hi Search 		guifg=fg      guibg=bg      cterm=underline
-hi Special    guifg=#29b7d0 cterm=italic
+hi Special    guifg=#29b7d0
 hi Statement  guifg=#f11760 guibg=bg      cterm=bold
 hi String     guifg=#eeee48 guibg=bg
 hi TODO       guifg=cyan    guibg=bg
