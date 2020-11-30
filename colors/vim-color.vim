@@ -104,6 +104,10 @@ hi PmenuSel   guifg=#f11760 guibg=#242520 cterm=bold
 hi PmenuSbar  guifg=#dfd6d8 guibg=bg
 hi PmenuThumb guifg=#dfd6d8 guibg=grey
 
+" Cursor
+hi CursorColumn             guibg=#303030
+hi CursorLine               guibg=#303030
+
 " Links
 hi! link SignColumn      LineNr
 hi! link VertSplit       Normal
