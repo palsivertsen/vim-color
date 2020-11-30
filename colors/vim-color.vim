@@ -108,6 +108,9 @@ hi PmenuThumb guifg=#dfd6d8 guibg=grey
 hi CursorColumn             guibg=#303030
 hi CursorLine               guibg=#303030
 
+" StatusLine
+hi StatusLine                             cterm=bold,reverse
+
 " Links
 hi! link SignColumn      LineNr
 hi! link VertSplit       Normal
