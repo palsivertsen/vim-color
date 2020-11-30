@@ -73,9 +73,9 @@ hi clear WildMenu
 hi Normal     guifg=#dfd6d8 guibg=#1f201b
 hi Comment    guifg=#828282 guibg=bg
 hi Constant   guifg=#29b7d0 guibg=bg
-hi DiffAdd    guifg=#9bbb51 guibg=bg
-hi DiffChange guifg=#d7c243 guibg=bg
-hi DiffDelete guifg=#e15743 guibg=bg
+hi DiffAdd    guifg=#9bbb51
+hi DiffChange guifg=#d7c243
+hi DiffDelete guifg=#e15743
 hi Directory  guifg=#1a3bf8 guibg=bg
 hi Error      guifg=fg      guibg=#d10707 gui=bold
 hi ErrorMsg   guifg=fg      guibg=#d10707
@@ -111,11 +111,11 @@ hi CursorLine               guibg=#303030
 " StatusLine
 hi StatusLine                             cterm=bold,reverse
 
+" GitGutter
+hi GitGutterAdd    guifg=#9bbb51 guibg=#242520
+hi GitGutterChange guifg=#d7c243 guibg=#242520
+hi GitGutterDelete guifg=#e15743 guibg=#242520
+
 " Links
 hi! link SignColumn      LineNr
 hi! link VertSplit       Normal
-
-" Custom
-hi! link GitGutterAdd    DiffAdd
-hi! link GitGutterChange DiffChange
-hi! link GitGutterDelete DiffDelete
