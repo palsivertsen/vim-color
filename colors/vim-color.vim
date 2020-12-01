@@ -81,11 +81,11 @@ hi Error      guifg=fg      guibg=#d10707 gui=bold
 hi ErrorMsg   guifg=fg      guibg=#d10707
 hi Function   guifg=#8be02f guibg=bg
 hi Identifier guifg=#eb7c34 guibg=bg
-hi IncSearch  guifg=fg      guibg=#828282 cterm=underline
+hi IncSearch                guibg=#828282 cterm=reverse
 hi LineNr     guifg=#828282 guibg=#242520
 hi MatchParen guifg=#eb7c34 guibg=bg
 hi NonText    guifg=#646757 guibg=bg
-hi Search 		guifg=fg      guibg=bg      cterm=underline
+hi Search 		                            cterm=underline  guisp=#eeee48
 hi Special    guifg=#29b7d0
 hi Statement  guifg=#f11760 guibg=bg      cterm=bold
 hi String     guifg=#eeee48 guibg=bg
