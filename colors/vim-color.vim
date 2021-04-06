@@ -34,7 +34,7 @@ hi String     guifg=#eeee48 guibg=bg
 hi TODO       guifg=cyan    guibg=bg
 hi Type       guifg=#20b7d0 guibg=bg
 hi Visual     guifg=fg      guibg=#36382f
-hi WarningMsg guifg=fg      guibg=#eeee48
+hi WarningMsg guifg=#eb7c34 guibg=#eeee48
 
 " Spell
 hi SpellBad                 guibg=bg      cterm=undercurl  guisp=red
